@@ -1,0 +1,15 @@
+<p>
+child component
+</p>
+
+
+<p> Student on child: {{ studentFromParent.name }} </p>
+<p> {{ studentFromParent.class }} </p>
+
+<!-- this is where we start OUTPUTTING process -->
+<!-- "$event" has to stay that always -->
+<button (click)="sendTheData($event)">Send data</button>
+
+
+
+
